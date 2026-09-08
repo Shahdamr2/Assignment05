@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Assignment_05.Entities;
+using Assignment_05.Entities.Enums;
+
+namespace Assignment_05.Entities
+{
+    class Book
+    {
+        private string password = "secret";
+        internal int copiesInStock = 5;
+        public string Title;
+        public Genre Genre { get; set; }
+    }
+}
