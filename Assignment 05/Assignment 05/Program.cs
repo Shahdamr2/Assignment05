@@ -1,4 +1,5 @@
 ﻿using Assignment_05.Entities;
+using Assignment_05.Entities.Enums;
 
 
 namespace Assignment_05
@@ -26,11 +27,20 @@ namespace Assignment_05
             #endregion
             #region Question 03
 
+            //Book book = new Book();
+
+            //book.Title = "Clean Code";
+
+            //Console.WriteLine($"Title: {book.Title}");
+
+            #endregion
+            #region Question 04
+
             Book book = new Book();
 
-            book.Title = "Clean Code";
+            book.Genre = Genre.Science;
 
-            Console.WriteLine($"Title: {book.Title}");
+            Console.WriteLine($"Genre: {book.Genre}");
 
             #endregion
         }
