@@ -9,12 +9,20 @@ namespace Assignment_05
         {
             #region Question 01
 
-            Book book = new Book();
+            //Book book = new Book();
 
-            Console.WriteLine(book.password);
+            //Console.WriteLine(book.password);
             // Compile-time error because password is private.
             // It can only be accessed inside the Book class.
 
+            #endregion
+            #region Question 02
+
+            Book book = new Book();
+
+            Console.WriteLine($"Copies in stock: {book.copiesInStock}");
+            // It compiles because internal members can be accessed
+            // from anywhere within the same project
             #endregion
         }
     }
