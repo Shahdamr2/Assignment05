@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Assignment_05.Entities;
+
+namespace Assignment_05.Entities
+{
+    class Book
+    {
+        private string password = "secret";
+    }
+}
