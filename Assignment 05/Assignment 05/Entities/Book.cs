@@ -9,5 +9,6 @@ namespace Assignment_05.Entities
     {
         private string password = "secret";
         internal int copiesInStock = 5;
+        public string Title;
     }
 }

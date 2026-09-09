@@ -18,11 +18,20 @@ namespace Assignment_05
             #endregion
             #region Question 02
 
-            Book book = new Book();
+            //Book book = new Book();
 
-            Console.WriteLine($"Copies in stock: {book.copiesInStock}");
+            //Console.WriteLine($"Copies in stock: {book.copiesInStock}");
             // It compiles because internal members can be accessed
             // from anywhere within the same project
+            #endregion
+            #region Question 03
+
+            Book book = new Book();
+
+            book.Title = "Clean Code";
+
+            Console.WriteLine($"Title: {book.Title}");
+
             #endregion
         }
     }
