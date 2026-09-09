@@ -61,11 +61,20 @@ namespace Assignment_05
             #endregion
             #region Question 07
 
-            Genre genre = Genre.Fiction;
+            //Genre genre = Genre.Fiction;
 
-            string genreText = genre.ToString();
+            //string genreText = genre.ToString();
 
-            Console.WriteLine($"Genre: {genreText}");
+            //Console.WriteLine($"Genre: {genreText}");
+
+            #endregion
+            #region Question 08
+
+            string genreText = "Science";
+
+            Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+
+            Console.WriteLine($"Genre: {genre}");
 
             #endregion
         }
