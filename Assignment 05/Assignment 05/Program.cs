@@ -70,11 +70,25 @@ namespace Assignment_05
             #endregion
             #region Question 08
 
-            string genreText = "Science";
+            //string genreText = "Science";
 
-            Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
 
-            Console.WriteLine($"Genre: {genre}");
+            //Console.WriteLine($"Genre: {genre}");
+
+            #endregion
+            #region Question 09
+
+            string genreText = "Mystery";
+
+            if (Enum.TryParse(genreText, out Genre genre))
+            {
+                Console.WriteLine($"Genre: {genre}");
+            }
+            else
+            {
+                Console.WriteLine($"Unknown genre");
+            }
 
             #endregion
         }
