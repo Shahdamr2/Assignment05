@@ -45,9 +45,18 @@ namespace Assignment_05
             #endregion
             #region Question 05
 
-            Console.WriteLine($"Fiction: {(int)Genre.Fiction}");
-            Console.WriteLine($"NonFiction: {(int)Genre.NonFiction}");
-            Console.WriteLine($"Science: {(int)Genre.Science}");
+            //Console.WriteLine($"Fiction: {(int)Genre.Fiction}");
+            //Console.WriteLine($"NonFiction: {(int)Genre.NonFiction}");
+            //Console.WriteLine($"Science: {(int)Genre.Science}");
+
+            #endregion
+            #region Question 06
+
+            int genreNumber = 1;
+
+            Genre genre = (Genre)genreNumber;
+
+            Console.WriteLine($"Genre: {genre}");
 
             #endregion
         }
