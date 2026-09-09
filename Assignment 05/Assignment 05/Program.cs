@@ -36,11 +36,18 @@ namespace Assignment_05
             #endregion
             #region Question 04
 
-            Book book = new Book();
+            //Book book = new Book();
 
-            book.Genre = Genre.Science;
+            //book.Genre = Genre.Science;
 
-            Console.WriteLine($"Genre: {book.Genre}");
+            //Console.WriteLine($"Genre: {book.Genre}");
+
+            #endregion
+            #region Question 05
+
+            Console.WriteLine($"Fiction: {(int)Genre.Fiction}");
+            Console.WriteLine($"NonFiction: {(int)Genre.NonFiction}");
+            Console.WriteLine($"Science: {(int)Genre.Science}");
 
             #endregion
         }
