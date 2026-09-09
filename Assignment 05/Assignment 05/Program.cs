@@ -52,11 +52,20 @@ namespace Assignment_05
             #endregion
             #region Question 06
 
-            int genreNumber = 1;
+            //int genreNumber = 1;
 
-            Genre genre = (Genre)genreNumber;
+            //Genre genre = (Genre)genreNumber;
 
-            Console.WriteLine($"Genre: {genre}");
+            //Console.WriteLine($"Genre: {genre}");
+
+            #endregion
+            #region Question 07
+
+            Genre genre = Genre.Fiction;
+
+            string genreText = genre.ToString();
+
+            Console.WriteLine($"Genre: {genreText}");
 
             #endregion
         }
